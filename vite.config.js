@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './app-reservaYA', // 👈 Agregá esta línea
+  base: '/app-reservaYA/',
+ // 👈 Agregá esta línea
 });
